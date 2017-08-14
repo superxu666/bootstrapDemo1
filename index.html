@@ -362,6 +362,10 @@
 
             $("#tab-list a[href='"+href+"']").tab("show");
         });
+
+        document.ontouchmove = function(ev){
+            ev.preventDefault();
+        }
     });
 </script>
 
